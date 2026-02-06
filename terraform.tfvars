@@ -1,0 +1,10 @@
+azurerm_resource_group = "rg_infra99"
+azurerm_virtual_network = "vnet_infra99"
+address_space = ["10.0.0.0/16"]
+azurerm_subnet = "subnet_infra99"
+address_prefixes = ["10.0.1.0/24"]
+azurerm_network_security_group = "nsg_infra99"
+azurerm_public_ip = "pip_infra99"
+azurerm_lb = "lb_infra99"
+frontend_ip_configuration = "frontend_infra99"
+azurerm_ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyv..."  # Replace with your actual SSH public key
