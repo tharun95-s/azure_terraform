@@ -162,7 +162,7 @@ resource "azurerm_linux_virtual_machine" "linux_vm_infra99" {
   size                  = "Standard_DS1_v2"
 
   admin_username = "azureuser"
-  admin_password = "P@ssword1234!"
+  admin_password = "P@sswor
 
   os_disk {
     caching              = "ReadWrite"
